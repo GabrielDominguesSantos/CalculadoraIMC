@@ -1,24 +1,62 @@
-<h1>CalculadoraIMC<h1>
-[Clique aqui para ver meu projeto funcionando!](https://youtube.com/shorts/cQ6MoWy_hSs?si=ikT0Z1z1rBRbeF0l)
-Como iniciar o projeto: <br>
+# CalculadoraIMC
+  
+### [Clique aqui para ver meu projeto funcionando!](https://youtube.com/shorts/cQ6MoWy_hSs?si=ikT0Z1z1rBRbeF0l)<br>
+
+## Tecnologias Utilizadas 
 <ul>
-<li>Instale o Node.js;<br></li>
-<li>Instale o Expo Go no seu dispositivo móvel;<br></li>
-<li>Instale o Expo CLI. Coloque o comando "npm install -g expo-cli" no terminal, e a instalação será feita;<br></li>
-<li>Baixe os arquivos no seu computador, dentro de uma pasta chamada "CalculadoraIMC", e abra o terminal dentro desta pasta;<br></li>
-Para iniciar o projeto, digite o comando "npx expo start --tunnel" no terminal, e escaneie o QR CODE gerado, lembrando que é necessário escanear o QR CODE dentro do aplicativo Expo Go.<br></li>
+  <li>React Native</li>
+  <li>JavaScript</li>
+  <li>Expo</li>
+  <li>Node.js</li>
 </ul>
-Pronto! Seguindo esses passos o projeto deve iniciar sem problemas!<br>
+
+## Objetivos
+Este projeto tem o intuito de desenvolver uma aplicação que recolhe as informações de peso e altura do usuário, e o informa sobre qual é seu IMC. Todas as funcionalidades serão explicadas ao decorrer do arquivo.
+
+## Resolução
+
+### Para resolver a proposta, foram necessárias três funcionalidades:<br>
+<ul>
+  <li>Armazenar os valores informados;</li>
+  <li>Realizar o cálculo;</li>
+  <li>Apresentar o resultado na tela.</li>
+</ul>
+
+### Armazenar os valores informados
+Para concluir esta funcionalidade, foi preciso criar as variáveis que receberiam o valor informado, assim que o usuário confirmar sua resposta no input.
+
+### Realizar o cálculo
+Para realizar o cálculo do IMC do usuário foi necessário utilizar a seguinte fórmula:<br>
+`Peso(kg)/Altura(metros)²`
+
+### Apresentar o resultado na tela
+Para apresentar o resultado na tela, foi necessário criar textos predefinidos onde o valor do IMC era apresentado através da variável criada para armazenar o valor.
+
+## Como iniciar o projeto: <br>
+
+### Instale o Node.js<br>
+1 - Para instalar o Node.js acesse o link: (https://nodejs.org/en/download);<br>
+2 - Escolha o seu sistema operacional;<br>
+3 - Selecione a opção `Installer`;<br>
+4 - Siga as instruções.
+
+### Instale o Expo Go no seu dispositivo móvel;<br>
+1 - Vá na loja de aplicativos do seu dispositivo e pesquise Expo Go;<br>
+2 - Faça o download.
+
+
+### Instale o Expo CLI.<br>
+1 - Vá ao terminal da sua pasta e digite o comando: `npm install -g expo-cli`;<br>
+2 - Aguarde a instalação ser concluída;
+
+### Inicie o projeto<br>
+
+1 - Para iniciar o projeto, no terminal onde o projeto está armazenado, digite o comando: `npx expo start --tunnel`;<br>
+2 - Escaneie o QR CODE gerado pelo aplicativo Expo Go.
+
+
+### Pronto! Seguindo esses passos o projeto deve iniciar sem problemas!<br>
 <br>
 
-Objetivo do projeto e explicação das funcionalidades:<br>
-Este projeto tem o intuito de calcular o IMC de uma pessoa e informar em que estágio da tabela de peso ela se encontra. <br>
-As funcionalidades adicionadas além do modelo pronto do projeto que foi disponibilizado, foram a tabela de IMC abaixo do resultado, e o estágio da tabela que o usuário se encontra juntamente ao cálculo do IMC.<br>
-
-Explicação da tabela:<br>
-A implementação da tabela foi bem simples, somente usei quebras de linha ({\n}) para organizar o texto e copiei as informações da tabela pelo Google.<br>
-
-Explicação da classificação do usuário:<br>
-Para adicionar a funcionalidade de informar o usuário em que classificação da tabela ele se encontra, criei uma variável do tipo let chamada mensagem, e defini ela como um espaço em branco. Após isso, criei diversos condicionais, dentro de cada condicional, estava a redefinição da variável mensagem correspondente à classificação do usuário na tabela de IMC. Os parâmetros analizavam o valor da variável imc, onde era armazenado o valor do cálculo final do imc do usuário, e a partir do resultado, era acionado a condicional correspondente.<br>
-<br>
-
+## Clone meu projeto!
+Para colonar o projeto, digite no terminal o seguinte comando: `git clone https://github.com/GabrielDominguesSantos/CalculadoraIMC`.
